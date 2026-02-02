@@ -4,6 +4,7 @@ numpy
 pymongo
 certifi
 
-
+pymongo[srv]==3.12
+# mongodb+srv://sujitrukade25_db_user:sqLZA6ahUIi1T1uv@cluster0.fb5kwqx.mongodb.net/?appName=Cluster0
 
 # -e .
