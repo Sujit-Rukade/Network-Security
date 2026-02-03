@@ -33,8 +33,6 @@ DATA_INGESTION_INGESTED_DIR: str = "ingested"
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATION: float = 0.2
 
 
-
-
 """
 Data Validation related constant start with DATA_VALIDATION VAR NAME
 """
@@ -44,6 +42,7 @@ DATA_VALIDATION_INVALID_DIR: str = "invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR: str = "drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
 PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
+
 
 """
 Data Transformation related constant start with DATA_TRANSFORMATION VAR NAME
@@ -63,10 +62,10 @@ DATA_TRANSFORMATION_TRAIN_FILE_PATH: str = "train.npy"
 DATA_TRANSFORMATION_TEST_FILE_PATH: str = "test.npy"
 
 
+
 """
 Model Trainer ralated constant start with MODE TRAINER VAR NAME
 """
-
 MODEL_TRAINER_DIR_NAME: str = "model_trainer"
 MODEL_TRAINER_TRAINED_MODEL_DIR: str = "trained_model"
 MODEL_TRAINER_TRAINED_MODEL_NAME: str = "model.pkl"
