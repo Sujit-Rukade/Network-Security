@@ -70,6 +70,8 @@ def load_object(file_path: str, ) -> object:
     except Exception as e:
         raise NetworkSecurityException(e, sys) from e
     
+    
+    
 def load_numpy_array_data(file_path: str) -> np.array:
     """
     load numpy array data from file
