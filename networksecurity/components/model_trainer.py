@@ -25,7 +25,19 @@ from sklearn.ensemble import (
 )
 import mlflow
 
+from dotenv import load_dotenv
+import dagshub
 
+load_dotenv()
+
+repo_owner = os.getenv("DAGSHUB_REPO_OWNER")
+repo_name = os.getenv("DAGSHUB_REPO_NAME")
+
+dagshub.init(
+    repo_owner=repo_owner,
+    repo_name=repo_name,
+    mlflow=True
+)
 
 
 
